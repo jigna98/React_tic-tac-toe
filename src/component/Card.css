@@ -1,0 +1,53 @@
+.card {
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 13px;
+    height: 115px;
+    width: 120px;
+    box-shadow: 3px 6px 18px rgb(228, 228, 228);
+    text-align: center;
+    justify-content: center;
+    font-size: 36px;
+    padding: 8px 0px 0px 5px;
+     
+  }
+  .card:hover {
+    cursor: pointer;   
+  }
+  .redSign {
+    color: rgba(0, 0, 0, 0); 
+  }
+  .blueSign {
+    color: rgba(0, 0, 0, 0);
+  }
+  .winMessage {
+    background-color: rgb(51, 125, 235);
+    font-weight: 250%;
+  }
+    
+  @media only screen and (max-width: 360px) {
+    .card { 
+      position: absolute;
+      left: 55%;
+      transform: translate(-50%, -50%);
+      color:  rgb(24, 110, 209);
+      width: 360px !important;
+      height: 700px !important;
+    }
+    .reset-btn{
+      top: 90%;
+    } 
+  }
+    
+  @media only screen and (max-width: 760px){
+    .card { 
+      position: absolute;
+      left: 20%;
+      color:  rgb(24, 110, 209);
+      width: 700px !important;
+      height: 1400px !important;
+    }
+    .reset-btn{
+      top: 40%;
+    }
+  }
